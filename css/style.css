@@ -1,0 +1,271 @@
+body {
+  background-color: #333;
+  padding: 20px;
+}
+
+#landing-page {
+  cursor: pointer;
+}
+
+#main-container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #333;
+  display: none;
+}
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  /*background-color: #333;*/
+}
+
+#main-container.show {
+  display: block;
+}
+
+header {
+  background-color: #FFFFFF;
+}
+
+h1#logo {
+  text-align: center;
+  margin: 100px 100px 0px 0px;
+  color: rgba(255,255,255,.5);
+  background-color: #333;
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+#changeText {
+    opacity: 1;
+    transition: opacity 0.5s;
+    position: absolute;
+    margin-left: 1%;
+    font-weight: bold;
+    color: white;
+}
+
+.hide {
+    opacity: 0 !important;
+}
+
+#figure-container {
+  text-align: center;
+}
+
+.figure {
+  margin: 0 auto;
+  height: 500px;
+  display: inline-block;
+}
+
+.male-figure {
+  height: 500px;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  z-index: 0;
+}
+
+.menu {
+  display: inline-block;
+  width: 200px;
+}
+
+.color-box {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+#tees-buttons {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 1px solid gray;
+  position: relative;
+  left: 75%;
+  top: 5rem;
+  z-index: 2;
+  display: none;
+}
+
+#tees-buttons.show {
+  display: block;
+}
+
+#whiteTee {
+  background-color: white;
+}
+#grayTee {
+  background-color: rgb(220, 220, 220);
+}
+#charcoalTee {
+  background-color: rgb(100, 100, 100);
+}
+#blackTee {
+  background-color: black;
+}
+#redTee {
+  background-color: red;
+}
+#blueTee {
+  background-color: blue;
+}
+#yellowTee {
+  background-color: yellow;
+}
+#greenTee {
+  background-color: green;
+}
+#pinkTee {
+  background-color: pink;
+}
+
+#bluePants {
+  background-color: blue;
+}
+#blackPants {
+  background-color: black;
+}
+#tanPants {
+  background-color: tan;
+}
+#grayPants {
+  background-color: gray;
+}
+#dkGrayPants {
+  background-color: rgb(100, 100, 100);
+}
+
+#whiteTeeF {
+  background-color: white;
+}
+#grayTeeF {
+  background-color: gray;
+}
+#lavenderTeeF {
+  background-color: purple;
+}
+#pinkTeeF {
+  background-color: pink;
+}
+#redTeeF {
+  background-color: red;
+}
+#navyTeeF {
+  background-color: #1C1D21;
+}
+
+#dkBluePantsF {
+  background-color: #00305A;
+}
+#blackPantsF {
+  background-color: black;
+}
+#dkGrayPantsF {
+  background-color: #333;
+}
+
+.tops-secondary-menu {
+  display: none;
+}
+
+.tops-secondary-menu.show {
+  display: block;
+  text-decoration: none;
+}
+
+.bottoms-secondary-menu {
+  display: none;
+}
+
+.bottom-secondary-menu.show {
+  display: block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.dropLink:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  clear: both;
+  display: block;
+}
+
+.tee {
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  height: 500px;
+  z-index: 2;
+}
+
+.pants {
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  height: 500px;
+  z-index: 1;
+}
+
+.close-x-tees {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  cursor: pointer;
+}
+
+#pants-buttons {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 1px solid gray;
+  position: relative;
+  left: 75%;
+  top: 5rem;
+  z-index: 2;
+  display: none;
+}
+
+#pants-buttons.show {
+  display: block;
+}
+
+.close-x-pants {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#mFooter {
+  text-align: center;
+  margin-top: 15%;
+  position: relative;
+  top: 450px;
+}
+
+footer a {
+  margin-right: 100px;
+  color: rgba(255, 255, 255, .2);
+}
+footer a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .6);
+}
